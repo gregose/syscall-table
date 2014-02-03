@@ -12,7 +12,7 @@ $ ctags --fields=afmikKlnsStz --c-kinds=+pc -R
 ```
 :coffee: or :beer:
 ```
-$ python ../gen_syscalls.py > syscalls-2.6.35.4.json
+$ python ../gen_syscalls.py > ../www/syscalls-2.6.35.4.json
 ```
 
 ## Web

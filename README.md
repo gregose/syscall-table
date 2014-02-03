@@ -2,13 +2,13 @@
 
 Generate JSON system call table from Linux source. Hosted at http://syscalls.kernelgrok.com.
 
-## Generating
+## Generating JSON
 ```
 $ brew install ctags
 $ easy_install python-ctags simplejson
 $ tar -zxvf linux-2.6.35.4.tar.gz
 $ cd linux-2.6.35.4
-$ ctags --fields=afmikKlnsStz --c-kinds=+pc -R linux-2.6.35.4
+$ ctags --fields=afmikKlnsStz --c-kinds=+pc -R
 ```
 :coffee: or :beer:
 ```

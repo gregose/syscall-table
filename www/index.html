@@ -1,127 +1,131 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
 
-		<title>Linux Syscall Reference</title>
-		<style type="text/css" title="currentStyle">
-			@import "css/page.css";
-			@import "css/table_jui.css";
-			@import "css/jquery-ui-1.7.2.custom.css";
-		</style>
+    <title>Linux Syscall Reference</title>
+    <style type="text/css" title="currentStyle">
+      @import "css/page.css";
+      @import "css/table_jui.css";
+      @import "css/jquery-ui-1.7.2.custom.css";
+    </style>
 
-		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/typography.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/typography.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" media="screen" />
 
-		<script src="js/cufon-yui.js" type="text/javascript"></script>
-		<script src="js/ChunkFive_400.font.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			Cufon('.chunk')('.chunk a', {hover:true});
-		</script>
+    <script src="js/cufon-yui.js" type="text/javascript"></script>
+    <script src="js/ChunkFive_400.font.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      Cufon('.chunk')('.chunk a', {hover:true});
+    </script>
 
-  	<script type="text/javascript" language="javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
-		<script type="text/javascript" charset="utf-8">
-			var renderReg = function (obj) {
-				if(obj.aData[obj.iDataColumn].type != null)
-					if(obj.aData[obj.iDataColumn].def != null && obj.aData[obj.iDataColumn].file != "")
-						return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+obj.aData[obj.iDataColumn].def.file+"#L"+obj.aData[obj.iDataColumn].def.line+"'>"+obj.aData[obj.iDataColumn].type+"</a>";
-					else
-						return obj.aData[obj.iDataColumn].type;
-				else
-					return "-";
-			};
-			$(document).ready(function() {
-				var e = [[['w','b'].join('e'), ['nullm', 'thod'].join('e')].join('@'), ['c','m'].join('o')].join('.');
-        			$("#email").attr("href", "mailto:"+e);
-				$('#syscall_table').dataTable( {
-					"sDom": '<"H"rlf>t<"F"ip>',
-					"iDisplayLength": 10,
-					"oLanguage": {
-						"sLengthMenu": 'Show <select><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="-1">All</option></select> entries'
-					},
-					"bJQueryUI": true,
-					"bProcessing": true,
-					"sPaginationType": "full_numbers",
-					"sAjaxSource": './syscalls-2.6.35.4.js',
-					"aoColumns": [
-					/* Number */ { "sClass": "center"},
-					/* Name */ { "sClass": "bold", "sType": "html", "fnRender": function (obj) {
-							if(obj.aData[1].match("sys_(.+)"))
-								return "<a target='_blank' href='http://www.kernel.org/doc/man-pages/online/pages/man2/"+obj.aData[1].match("sys_(.+)")[1]+".2.html'>"+obj.aData[1]+"</a>";
-							else
-								return obj.aData[1]
-							}
-						  },
-					/* Signature */ { "bVisible": false, "bSearchable": false },
-					/* eax */ { iDataSort: 0, "bSearchable": true },
-					/* ebx */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
-					/* ecx */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
-					/* edx */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
-					/* esi */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
-					/* edi */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
-					/* URL */ { "sType": "html", "bSearchable": false, "fnRender": function (oObj) {
-								if(oObj.aData[9] != "")
-									return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+oObj.aData[9]+"#L"+oObj.aData[10]+"'>"+oObj.aData[9]+":"+oObj.aData[10]+"</a>";
-								else
-									return oObj.aData[9];
-							}
-						},
-					/* Line */ { "bVisible": false, "bSearchable": false }
-					]
-				} );
-			} );
-		</script>
-	        <script type="text/javascript">
-       	         var _gaq = _gaq || [];
-       	         _gaq.push(['_setAccount', 'UA-12723311-2']);
-       	         _gaq.push(['_setDomainName', '.kernelgrok.com']);
-       	         _gaq.push(['_trackPageview']);
+    <script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      var renderReg = function (obj) {
+        if(obj.aData[obj.iDataColumn].type != null)
+          if(obj.aData[obj.iDataColumn].def != null && obj.aData[obj.iDataColumn].file != "")
+            return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+obj.aData[obj.iDataColumn].def.file+"#L"+obj.aData[obj.iDataColumn].def.line+"'>"+obj.aData[obj.iDataColumn].type+"</a>";
+          else
+            return obj.aData[obj.iDataColumn].type;
+        else
+          return "-";
+      };
+      $(document).ready(function() {
+        $('#syscall_table').dataTable( {
+          "sDom": '<"H"rlf>t<"F"ip>',
+          "iDisplayLength": 10,
+          "oLanguage": {
+            "sLengthMenu": 'Show <select><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="-1">All</option></select> entries'
+          },
+          "bJQueryUI": true,
+          "bProcessing": true,
+          "sPaginationType": "full_numbers",
+          "sAjaxSource": './syscalls-2.6.35.4.js',
+          "aoColumns": [
+          /* Number */ { "sClass": "center"},
+          /* Name */ { "sClass": "bold", "sType": "html", "fnRender": function (obj) {
+              if(obj.aData[1].match("sys_(.+)"))
+                return "<a target='_blank' href='http://www.kernel.org/doc/man-pages/online/pages/man2/"+obj.aData[1].match("sys_(.+)")[1]+".2.html'>"+obj.aData[1]+"</a>";
+              else
+                return obj.aData[1]
+              }
+              },
+          /* Signature */ { "bVisible": false, "bSearchable": false },
+          /* eax */ { iDataSort: 0, "bSearchable": true },
+          /* ebx */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
+          /* ecx */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
+          /* edx */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
+          /* esi */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
+          /* edi */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
+          /* URL */ { "sType": "html", "bSearchable": false, "fnRender": function (oObj) {
+                if(oObj.aData[9] != "")
+                  return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+oObj.aData[9]+"#L"+oObj.aData[10]+"'>"+oObj.aData[9]+":"+oObj.aData[10]+"</a>";
+                else
+                  return oObj.aData[9];
+              }
+            },
+          /* Line */ { "bVisible": false, "bSearchable": false }
+          ]
+        } );
+      } );
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-12723311-2']);
+      _gaq.push(['_setDomainName', '.kernelgrok.com']);
+      _gaq.push(['_trackPageview']);
 
-       	           (function() {
-       	             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-       	             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-       	             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-       	           })();
-	        </script>
-	</head>
-	<body>
-		<div id="header">
-			<div class="site">
-			<div id="headline">
-				<h2 class="chunk">Linux Syscall Reference</h2>
-			</div>
-			</div>
-		</div>
-		<div id="container2" class="site">
-			<table cellpadding="0" cellspacing="0" border="0" class="display" id="syscall_table">
-			<thead>
-			<tr>
-				<th rowspan="2">#</th>
-				<th rowspan="2">Name</th>
-				<th rowspan="2">Signature</th>
-				<th class="ui-state-default" colspan="6">Registers</th>
-				<th rowspan="2">Definition</th>
-				<th rowspan="2">URL</th>
-			</tr>
-			<tr>
-				<th>eax</th>
-				<th>ebx</th>
-				<th>ecx</th>
-				<th>edx</th>
-				<th>esi</th>
-				<th>edi</th>
-			</tr>
-			</thead>
-			<tbody>
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="site">
+      <div id="headline">
+        <h2 class="chunk">Linux Syscall Reference</h2>
+      </div>
+      </div>
+    </div>
+    <div id="container2" class="site">
+      <table cellpadding="0" cellspacing="0" border="0" class="display" id="syscall_table">
+      <thead>
+      <tr>
+        <th rowspan="2">#</th>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">Signature</th>
+        <th class="ui-state-default" colspan="6">Registers</th>
+        <th rowspan="2">Definition</th>
+        <th rowspan="2">URL</th>
+      </tr>
+      <tr>
+        <th>eax</th>
+        <th>ebx</th>
+        <th>ecx</th>
+        <th>edx</th>
+        <th>esi</th>
+        <th>edi</th>
+      </tr>
+      </thead>
+      <tbody>
 
-			</tbody>
-			</table>
-		</div>
-		<div id="footer" class="site">
-			<h4 class="chunk">Generated from Linux kernel 2.6.35.4 using <a target="_blank" href="http://ctags.sourceforge.net/">Exuberant Ctags</a>, <a target="_blank" href="http://www.python.org/">Python</a>, and <a target="_blank" href="http://www.datatables.net/">DataTables</a>.<br>Developed and maintained by <a id="email">Greg Ose</a>.</h4>
-		</div>
-		<script type="text/javascript">Cufon.now();</script>
-	</body>
+      </tbody>
+      </table>
+    </div>
+    <div id="footer" class="site">
+      <h4 class="chunk">
+        Generated from Linux kernel 2.6.35.4 using <a target="_blank" href="http://ctags.sourceforge.net/">Exuberant Ctags</a>,
+        <a target="_blank" href="http://www.python.org/">Python</a>, and
+        <a target="_blank" href="http://www.datatables.net/">DataTables</a>.
+        <br>
+        Project on <a href="https://github.com/gregose/syscall-table">GitHub</a>.
+      </h4>
+    </div>
+    <script type="text/javascript">Cufon.now();</script>
+  </body>
 </html>

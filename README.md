@@ -16,8 +16,8 @@ $ python ../gen_syscalls.py > syscalls-2.6.35.4.json
 ```
 
 ## Web
-* uses [jQuery DataTables] to pull JSON file and format table
-* links to lxr.free-electrons.com for source cross-reference and manpages
+* uses [jQuery DataTables](http://datatables.net/) to pull JSON file and format table
+* links to http://lxr.free-electrons.com for source cross-reference and http://www.kernel.org for manpages
 * www dir checked into gh-pages branch w/ JSON file
 
 ## Other

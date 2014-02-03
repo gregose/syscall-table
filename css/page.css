@@ -1,0 +1,67 @@
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * General page setup
+ */
+#syscall_table {
+	font: .8em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #fff;
+}
+
+#syscall_table .spacer {
+	height: 20px;
+	clear: both;
+}
+
+#syscall_table .clear {
+	clear: both;
+}
+
+#syscall_table pre {
+	padding: 15px;
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+}
+
+#syscall_table h1 {
+	margin-top: 2em;
+	font-size: 3.3em;
+	font-weight: normal;
+	line-height: 1.6em;
+	color: #4E6CA3;
+	border-bottom: 1px solid #B0BED9;
+	clear: both;
+}
+
+#syscall_table h2 {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.6em;
+	margin: 2px;
+	color: #4E6CA3;
+	clear: both;
+}
+
+#syscall_table a {
+	color: #660000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#syscall_table a:hover {
+	text-decoration: underline;
+}
+
+#syscall_table ul {
+	color: #4E6CA3;
+}
+
+.css_right {
+	float: right;
+}
+
+.css_left {
+	float: left;
+}

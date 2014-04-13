@@ -5,11 +5,12 @@ from ctags import CTags, TagEntry
 tags = CTags('tags')
 entry = TagEntry()
 
-sct_file = open('arch/x86/kernel/syscall_table_32.S', 'r')
+sct_file = open('arch/x86/syscall/syscall_32.tbl', 'r')
 
 sys_calls = []
 i = 0
 
+#da cambiare da qua in poi
 for line in sct_file:
 	name = re.search(".long (\w*)", line)
 	if(name):

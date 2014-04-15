@@ -3,13 +3,12 @@
 Generate JSON system call table from Linux source. Hosted at http://syscalls.kernelgrok.com.
 
 ## Generating JSON
-* install ctags
-* easy_install python-ctags simplejson
-* download and extract the linux source (kernel.org)
-* go inside the extracted directory and execute the following cmd:<br>
-`ctags --fields=afmikKlnsStz --c-kinds=+pc -R`
+* Install ctags (http://ctags.sourceforge.net)
+* `easy_install python-ctags simplejson`
+* Download and extract the Linux kernel sources (https://www.kernel.org)
+* `chmod +x prepare-files.sh && ./prepare-files.sh`
 :coffee: or :beer:
-* python ../gen_syscalls.py > ../www/syscalls-x86.json
+* `chmod +x gen_syscalls.py && ./gen_syscalls.py > www/syscalls-x86.json`
 
 ## Web
 * uses [jQuery DataTables](http://datatables.net/) to pull JSON file and format table
@@ -17,4 +16,4 @@ Generate JSON system call table from Linux source. Hosted at http://syscalls.ker
 * `www` dir checked into gh-pages branch w/ JSON file using `deploy.sh`
 
 ## Contributors
-* Paolo Stivanin (www.paolostivanin.com)
+* Paolo Stivanin (https://github.com/polslinux)

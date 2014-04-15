@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+
 import ctags, re, simplejson, sys, os
 from ctags import CTags, TagEntry
 
@@ -5,25 +7,15 @@ from ctags import CTags, TagEntry
 tags = CTags('tags')
 entry = TagEntry()
 
-sct_file = open('arch/x86/syscall/syscall_32.tbl', 'r')
+sct_file = open('syscall_32.tbl', 'r')
 
 sys_calls = []
 i = 0
 
-#da cambiare da qua in poi
 for line in sct_file:
-	name = re.search(".long (\w*)", line)
-	if(name):
-		name = name.group(1)
-		is_ptregs = False
-		if(name == "sys_ni_syscall"):
-			sys_calls.append([i, "not implemented", "", "%0#4x"%(i), "", "", "", "", "", "", ""])
-			i += 1
-			continue
-		# take care of ptregs
-		elif(name.find('ptregs_') == 0):
-			name = name.replace("ptregs_", "sys_")
-			is_ptregs = True
+	parts = line.split()
+	if(len(parts) > 3 and parts[0] >= '0'):
+		name = parts[3]
 		if tags.find(entry, name, ctags.TAG_FULLMATCH | ctags.TAG_OBSERVECASE):
 			found_sym = False
 			while(not found_sym):
@@ -54,13 +46,9 @@ for line in sct_file:
 					remaining = 9 - len(details)
 					for x in range(0, remaining):
 						details.append("")
-					# try to get the line now
-					if(not is_ptregs):
-						pattern = "SYSCALL_DEFINE%d(%s"%(len(sig), name.replace("sys_", ""))
-						search = "SYSCALL_DEFINE%d"%(len(sig))
-					else:
-						pattern = name
-						search = name
+
+					pattern = "SYSCALL_DEFINE%d(%s"%(len(sig), name.replace("sys_", ""))
+					search = "SYSCALL_DEFINE%d"%(len(sig))
 					if tags.find(entry, search, ctags.TAG_FULLMATCH | ctags.TAG_OBSERVECASE):
 						found = False
 						while(found == False):
@@ -83,5 +71,8 @@ for line in sct_file:
 						sys_calls.append([i, "", "", "", "", "", "", "", "", "", ""])
 						break
 		i += 1
-
+	else:
+		sys_calls.append([i, "not implemented", "", "%0#4x"%(i), "", "", "", "", "", "", ""])
+		i += 1
+		
 print simplejson.dumps({'aaData': sys_calls}, indent="   ")

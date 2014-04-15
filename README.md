@@ -7,7 +7,7 @@ Generate JSON system call table from Linux source. Hosted at http://syscalls.ker
 * `easy_install python-ctags simplejson`
 * Download and extract the Linux kernel sources (https://www.kernel.org)
 * `chmod +x prepare-files.sh && ./prepare-files.sh`
-:coffee: or :beer:
+<br>:coffee: or :beer:
 * `chmod +x gen_syscalls.py && ./gen_syscalls.py > www/syscalls-x86.json`
 
 ## Web

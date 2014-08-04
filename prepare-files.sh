@@ -1,6 +1,6 @@
 #!/bin/sh
 
-KERNEL_VERSION="3.15.1"
+KERNEL_VERSION="3.16"
 
 if [ ! -d /usr/src/linux-${KERNEL_VERSION} ];then
 	echo "The Linux source tree doesn't exist"

@@ -8,6 +8,7 @@ tags = CTags('tags')
 entry = TagEntry()
 
 sct_file = open('syscall_32.tbl', 'r')
+#sct_file = open('syscall_64.tbl', 'r')
 
 sys_calls = []
 i = 0

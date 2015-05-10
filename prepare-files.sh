@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KERNEL_VERSION="3.17"
+KERNEL_VERSION="4.0.2"
 TBL_32="/usr/src/linux-${KERNEL_VERSION}/arch/x86/syscalls/syscall_32.tbl"
 TBL_64="/usr/src/linux-${KERNEL_VERSION}/arch/x86/syscalls/syscall_64.tbl"
 

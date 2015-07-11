@@ -1,8 +1,8 @@
 #!/bin/bash
 
-KERNEL_VERSION="4.1.1"
+KERNEL_VERSION="4.1.2"
 LINK="https://www.kernel.org/pub/linux/kernel/v4.x/linux-${KERNEL_VERSION}.tar.xz"
-DIR="/tmp"
+DIR="/usr/src"
 
 TBL_32="${DIR}/linux-${KERNEL_VERSION}/arch/x86/syscalls/syscall_32.tbl"
 TBL_64="${DIR}/linux-${KERNEL_VERSION}/arch/x86/syscalls/syscall_64.tbl"
@@ -27,5 +27,3 @@ sed -i '1,8d' syscall_32.tbl
 cp -v $TBL_64 .
 sed -i '1,8d' syscall_64.tbl
 echo "[+] Done :)"
-rm -fv ${DIR}/linux-${KERNEL_VERSION}
-rm -rfv ${DIR}/linux-${KERNEL_VERSION}.tar.xz

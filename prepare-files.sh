@@ -1,12 +1,18 @@
 #!/bin/bash
 
-KERNEL_VERSION="4.1.2"
+KERNEL_VERSION="4.2"
 LINK="https://www.kernel.org/pub/linux/kernel/v4.x/linux-${KERNEL_VERSION}.tar.xz"
 DIR="/usr/src"
 
-TBL_32="${DIR}/linux-${KERNEL_VERSION}/arch/x86/syscalls/syscall_32.tbl"
-TBL_64="${DIR}/linux-${KERNEL_VERSION}/arch/x86/syscalls/syscall_64.tbl"
+TBL_32="${DIR}/linux-${KERNEL_VERSION}/arch/x86/entry/syscalls/syscall_32.tbl"
+TBL_64="${DIR}/linux-${KERNEL_VERSION}/arch/x86/entry/syscalls/syscall_64.tbl"
 
+
+if [ $(id -u) != 0 ]
+then
+    echo "[E] Must be root"
+    exit -1
+fi
 
 if [ ! -d ${DIR}/linux-${KERNEL_VERSION} ];then
     curl $LINK > /tmp/linux-${KERNEL_VERSION}.tar.xz
@@ -27,3 +33,5 @@ sed -i '1,8d' syscall_32.tbl
 cp -v $TBL_64 .
 sed -i '1,8d' syscall_64.tbl
 echo "[+] Done :)"
+rm -rf "${DIR}/linux-${KERNEL_VERSION}"
+rm -rf "/tmp/linux-${KERNEL_VERSION}.tar.xz"

@@ -1106,9 +1106,9 @@
 			 * Notes:    These variable must NOT be used externally to get the data length. Rather, use
 			 *   the fnRecordsTotal() (etc) functions.
 			 */
-			this._iDisplayLength = 10;
+			this._iDisplayLength = 20;
 			this._iDisplayStart = 0;
-			this._iDisplayEnd = 10;
+			this._iDisplayEnd = 20;
 			
 			/*
 			 * Variable: _iRecordsTotal, _iRecordsDisplay

@@ -35,7 +35,7 @@
       $(document).ready(function() {
         $('#syscall_table').dataTable( {
           "sDom": '<"H"rlf>t<"F"ip>',
-          "iDisplayLength": 10,
+          "iDisplayLength": 20,
           "oLanguage": {
             "sLengthMenu": 'Show <select><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="-1">All</option></select> entries'
           },
@@ -60,8 +60,8 @@
           /* esi */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
           /* edi */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
           /* URL */ { "sType": "html", "bSearchable": false, "fnRender": function (oObj) {
-                if(oObj.aData[9] != "")
-                  return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+oObj.aData[9]+"#L"+oObj.aData[10]+"'>"+oObj.aData[9]+":"+oObj.aData[10]+"</a>";
+                if(oObj.aData[19] != "")
+                  return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+oObj.aData[19]+"#L"+oObj.aData[20]+"'>"+oObj.aData[19]+":"+oObj.aData[20]+"</a>";
                 else
                   return oObj.aData[9];
               }
@@ -70,18 +70,6 @@
           ]
         } );
       } );
-    </script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-12723311-2']);
-      _gaq.push(['_setDomainName', '.kernelgrok.com']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
     </script>
   </head>
   <body>
@@ -119,11 +107,11 @@
     </div>
     <div id="footer" class="site">
       <h4 class="chunk">
-        Generated from Linux kernel 4.2.0 using <a target="_blank" href="http://ctags.sourceforge.net/">Exuberant Ctags</a>,
+        Generated from Linux kernel 4.3.0 using <a target="_blank" href="http://ctags.sourceforge.net/">Exuberant Ctags</a>,
         <a target="_blank" href="http://www.python.org/">Python</a>, and
         <a target="_blank" href="http://www.datatables.net/">DataTables</a>.
         <br>
-        Project on <a href="https://github.com/gregose/syscall-table">GitHub</a>. Hosted on <a href="http://pages.github.com">GitHub Pages</a>.
+        Project on <a href="https://github.com/paolostivanin/syscall-table">GitHub</a>. Hosted on <a href="https://github.com">GitHub</a>.
       </h4>
     </div>
     <script type="text/javascript">Cufon.now();</script>

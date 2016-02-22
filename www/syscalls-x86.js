@@ -10,8 +10,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         2497
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         2448
       ],
       [
          1,
@@ -26,8 +26,8 @@
          "",
          "",
          "",
-         "kernel/exit.c",
-         841
+         "/usr/src/linux-4.4.2/kernel/exit.c",
+         845
       ],
       [
          2,
@@ -39,8 +39,8 @@
          "",
          "",
          "",
-         "kernel/fork.c",
-         1774
+         "/usr/src/linux-4.4.2/kernel/fork.c",
+         1788
       ],
       [
          3,
@@ -61,7 +61,7 @@
          },
          "",
          "",
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          562
       ],
       [
@@ -83,7 +83,7 @@
          },
          "",
          "",
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          577
       ],
       [
@@ -105,7 +105,7 @@
          },
          "",
          "",
-         "fs/fhandle.c",
+         "/usr/src/linux-4.4.2/fs/fhandle.c",
          255
       ],
       [
@@ -121,7 +121,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          1099
       ],
       [
@@ -143,8 +143,8 @@
          },
          "",
          "",
-         "kernel/exit.c",
-         1627
+         "/usr/src/linux-4.4.2/kernel/exit.c",
+         1631
       ],
       [
          8,
@@ -162,7 +162,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          1061
       ],
       [
@@ -181,8 +181,8 @@
          "",
          "",
          "",
-         "fs/namei.c",
-         4101
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         4124
       ],
       [
          10,
@@ -197,8 +197,8 @@
          "",
          "",
          "",
-         "fs/namei.c",
-         3892
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         3915
       ],
       [
          11,
@@ -219,8 +219,8 @@
          },
          "",
          "",
-         "fs/exec.c",
-         1704
+         "/usr/src/linux-4.4.2/fs/exec.c",
+         1710
       ],
       [
          12,
@@ -235,7 +235,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          418
       ],
       [
@@ -251,7 +251,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          895
       ],
       [
@@ -273,8 +273,8 @@
          },
          "",
          "",
-         "fs/namei.c",
-         3555
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         3578
       ],
       [
          15,
@@ -292,7 +292,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          562
       ],
       [
@@ -314,7 +314,7 @@
          },
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          24
       ],
       [
@@ -343,13 +343,13 @@
             "type": "struct __old_kernel_stat __user *statbuf",
             "def": {
                "line": 4,
-               "file": "arch/arm/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/arm/include/uapi/asm/stat.h"
             }
          },
          "",
          "",
          "",
-         "fs/stat.c",
+         "/usr/src/linux-4.4.2/fs/stat.c",
          177
       ],
       [
@@ -371,7 +371,7 @@
          },
          "",
          "",
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          276
       ],
       [
@@ -384,7 +384,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          830
       ],
       [
@@ -412,7 +412,7 @@
             "type": "void __user *data",
             "def": null
          },
-         "fs/namespace.c",
+         "/usr/src/linux-4.4.2/fs/namespace.c",
          2893
       ],
       [
@@ -428,7 +428,7 @@
          "",
          "",
          "",
-         "fs/namespace.c",
+         "/usr/src/linux-4.4.2/fs/namespace.c",
          1640
       ],
       [
@@ -444,7 +444,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          49
       ],
       [
@@ -457,7 +457,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          199
       ],
       [
@@ -473,7 +473,7 @@
          "",
          "",
          "",
-         "kernel/time/time.c",
+         "/usr/src/linux-4.4.2/kernel/time/time.c",
          82
       ],
       [
@@ -498,8 +498,8 @@
             "def": null
          },
          "",
-         "kernel/ptrace.c",
-         1032
+         "/usr/src/linux-4.4.2/kernel/ptrace.c",
+         1050
       ],
       [
          27,
@@ -514,8 +514,8 @@
          "",
          "",
          "",
-         "kernel/time/timer.c",
-         1432
+         "/usr/src/linux-4.4.2/kernel/time/timer.c",
+         1455
       ],
       [
          28,
@@ -530,13 +530,13 @@
             "type": "struct __old_kernel_stat __user *statbuf",
             "def": {
                "line": 4,
-               "file": "arch/arm/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/arm/include/uapi/asm/stat.h"
             }
          },
          "",
          "",
          "",
-         "fs/stat.c",
+         "/usr/src/linux-4.4.2/fs/stat.c",
          203
       ],
       [
@@ -549,8 +549,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         3544
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3495
       ],
       [
          30,
@@ -565,13 +565,13 @@
             "type": "struct utimbuf __user *times",
             "def": {
                "line": 6,
-               "file": "include/uapi/linux/utime.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/utime.h"
             }
          },
          "",
          "",
          "",
-         "fs/utimes.c",
+         "/usr/src/linux-4.4.2/fs/utimes.c",
          27
       ],
       [
@@ -616,7 +616,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          413
       ],
       [
@@ -632,8 +632,8 @@
          "",
          "",
          "",
-         "kernel/sched/core.c",
-         3402
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         3522
       ],
       [
          35,
@@ -658,8 +658,8 @@
          "",
          "",
          "",
-         "fs/sync.c",
-         102
+         "/usr/src/linux-4.4.2/fs/sync.c",
+         107
       ],
       [
          37,
@@ -677,8 +677,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         2896
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         2847
       ],
       [
          38,
@@ -696,8 +696,8 @@
          "",
          "",
          "",
-         "fs/namei.c",
-         4438
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         4461
       ],
       [
          39,
@@ -715,8 +715,8 @@
          "",
          "",
          "",
-         "fs/namei.c",
-         3611
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         3634
       ],
       [
          40,
@@ -731,8 +731,8 @@
          "",
          "",
          "",
-         "fs/namei.c",
-         3739
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         3762
       ],
       [
          41,
@@ -747,8 +747,8 @@
          "",
          "",
          "",
-         "fs/file.c",
-         900
+         "/usr/src/linux-4.4.2/fs/file.c",
+         932
       ],
       [
          42,
@@ -763,8 +763,8 @@
          "",
          "",
          "",
-         "fs/pipe.c",
-         799
+         "/usr/src/linux-4.4.2/fs/pipe.c",
+         801
       ],
       [
          43,
@@ -779,7 +779,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          895
       ],
       [
@@ -808,8 +808,8 @@
          "",
          "",
          "",
-         "mm/mmap.c",
-         285
+         "/usr/src/linux-4.4.2/mm/mmap.c",
+         286
       ],
       [
          46,
@@ -824,7 +824,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          39
       ],
       [
@@ -837,7 +837,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          209
       ],
       [
@@ -856,8 +856,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         3527
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3478
       ],
       [
          49,
@@ -869,7 +869,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          204
       ],
       [
@@ -882,7 +882,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          214
       ],
       [
@@ -898,7 +898,7 @@
          "",
          "",
          "",
-         "kernel/acct.c",
+         "/usr/src/linux-4.4.2/kernel/acct.c",
          270
       ],
       [
@@ -917,7 +917,7 @@
          "",
          "",
          "",
-         "fs/namespace.c",
+         "/usr/src/linux-4.4.2/fs/namespace.c",
          1595
       ],
       [
@@ -952,7 +952,7 @@
          },
          "",
          "",
-         "fs/ioctl.c",
+         "/usr/src/linux-4.4.2/fs/ioctl.c",
          613
       ],
       [
@@ -974,7 +974,7 @@
          },
          "",
          "",
-         "fs/fcntl.c",
+         "/usr/src/linux-4.4.2/fs/fcntl.c",
          356
       ],
       [
@@ -1006,7 +1006,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          919
       ],
       [
@@ -1031,14 +1031,14 @@
             "type": "struct oldold_utsname __user *",
             "def": {
                "line": 6,
-               "file": "include/uapi/linux/utsname.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/utsname.h"
             }
          },
          "",
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1180
       ],
       [
@@ -1054,7 +1054,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1646
       ],
       [
@@ -1070,7 +1070,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          469
       ],
       [
@@ -1086,13 +1086,13 @@
             "type": "struct ustat __user *ubuf",
             "def": {
                "line": 197,
-               "file": "include/linux/types.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/types.h"
             }
          },
          "",
          "",
          "",
-         "fs/statfs.c",
+         "/usr/src/linux-4.4.2/fs/statfs.c",
          228
       ],
       [
@@ -1111,8 +1111,8 @@
          "",
          "",
          "",
-         "fs/file.c",
-         885
+         "/usr/src/linux-4.4.2/fs/file.c",
+         917
       ],
       [
          64,
@@ -1124,7 +1124,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          847
       ],
       [
@@ -1137,7 +1137,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1020
       ],
       [
@@ -1150,7 +1150,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1066
       ],
       [
@@ -1166,20 +1166,20 @@
             "type": "const struct old_sigaction __user *",
             "def": {
                "line": 94,
-               "file": "arch/powerpc/include/uapi/asm/signal.h"
+               "file": "/usr/src/linux-4.4.2/arch/powerpc/include/uapi/asm/signal.h"
             }
          },
          {
             "type": "struct old_sigaction __user *",
             "def": {
                "line": 94,
-               "file": "arch/powerpc/include/uapi/asm/signal.h"
+               "file": "/usr/src/linux-4.4.2/arch/powerpc/include/uapi/asm/signal.h"
             }
          },
          "",
          "",
-         "arch/mips/kernel/signal.c",
-         315
+         "/usr/src/linux-4.4.2/arch/mips/kernel/signal.c",
+         551
       ],
       [
          68,
@@ -1191,8 +1191,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         3505
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3456
       ],
       [
          69,
@@ -1207,8 +1207,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         3511
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3462
       ],
       [
          70,
@@ -1226,7 +1226,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          44
       ],
       [
@@ -1245,7 +1245,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          34
       ],
       [
@@ -1267,8 +1267,8 @@
          },
          "",
          "",
-         "kernel/signal.c",
-         3616
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3567
       ],
       [
          73,
@@ -1283,8 +1283,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         3281
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3232
       ],
       [
          74,
@@ -1302,7 +1302,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1215
       ],
       [
@@ -1321,7 +1321,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1490
       ],
       [
@@ -1340,7 +1340,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1307
       ],
       [
@@ -1356,13 +1356,13 @@
             "type": "struct rusage __user *ru",
             "def": {
                "line": 23,
-               "file": "include/uapi/linux/resource.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/resource.h"
             }
          },
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1624
       ],
       [
@@ -1374,7 +1374,7 @@
             "type": "struct timeval __user *tv",
             "def": {
                "line": 15,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          {
@@ -1384,7 +1384,7 @@
          "",
          "",
          "",
-         "kernel/time/time.c",
+         "/usr/src/linux-4.4.2/kernel/time/time.c",
          102
       ],
       [
@@ -1396,7 +1396,7 @@
             "type": "struct timeval __user *tv",
             "def": {
                "line": 15,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          {
@@ -1406,7 +1406,7 @@
          "",
          "",
          "",
-         "kernel/time/time.c",
+         "/usr/src/linux-4.4.2/kernel/time/time.c",
          193
       ],
       [
@@ -1425,7 +1425,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          151
       ],
       [
@@ -1444,7 +1444,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          174
       ],
       [
@@ -1456,14 +1456,14 @@
             "type": "struct sel_arg_struct __user *arg",
             "def": {
                "line": 719,
-               "file": "fs/select.c"
+               "file": "/usr/src/linux-4.4.2/fs/select.c"
             }
          },
          "",
          "",
          "",
          "",
-         "fs/select.c",
+         "/usr/src/linux-4.4.2/fs/select.c",
          725
       ],
       [
@@ -1482,8 +1482,8 @@
          "",
          "",
          "",
-         "fs/namei.c",
-         3949
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         3972
       ],
       [
          84,
@@ -1498,13 +1498,13 @@
             "type": "struct __old_kernel_stat __user *statbuf",
             "def": {
                "line": 4,
-               "file": "arch/arm/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/arm/include/uapi/asm/stat.h"
             }
          },
          "",
          "",
          "",
-         "fs/stat.c",
+         "/usr/src/linux-4.4.2/fs/stat.c",
          190
       ],
       [
@@ -1526,7 +1526,7 @@
          },
          "",
          "",
-         "fs/stat.c",
+         "/usr/src/linux-4.4.2/fs/stat.c",
          349
       ],
       [
@@ -1542,8 +1542,8 @@
          "",
          "",
          "",
-         "fs/exec.c",
-         108
+         "/usr/src/linux-4.4.2/fs/exec.c",
+         114
       ],
       [
          87,
@@ -1561,8 +1561,8 @@
          "",
          "",
          "",
-         "mm/swapfile.c",
-         2345
+         "/usr/src/linux-4.4.2/mm/swapfile.c",
+         2386
       ],
       [
          88,
@@ -1586,7 +1586,7 @@
             "def": null
          },
          "",
-         "kernel/reboot.c",
+         "/usr/src/linux-4.4.2/kernel/reboot.c",
          280
       ],
       [
@@ -1602,7 +1602,7 @@
             "type": "struct old_linux_dirent __user *",
             "def": {
                "line": 64,
-               "file": "fs/readdir.c"
+               "file": "/usr/src/linux-4.4.2/fs/readdir.c"
             }
          },
          {
@@ -1611,7 +1611,7 @@
          },
          "",
          "",
-         "fs/readdir.c",
+         "/usr/src/linux-4.4.2/fs/readdir.c",
          110
       ],
       [
@@ -1622,16 +1622,16 @@
          {
             "type": "struct mmap_arg_struct __user *arg",
             "def": {
-               "line": 1450,
-               "file": "mm/mmap.c"
+               "line": 1460,
+               "file": "/usr/src/linux-4.4.2/mm/mmap.c"
             }
          },
          "",
          "",
          "",
          "",
-         "mm/mmap.c",
-         1459
+         "/usr/src/linux-4.4.2/mm/mmap.c",
+         1469
       ],
       [
          91,
@@ -1649,8 +1649,8 @@
          "",
          "",
          "",
-         "mm/mmap.c",
-         2620
+         "/usr/src/linux-4.4.2/mm/mmap.c",
+         2634
       ],
       [
          92,
@@ -1668,7 +1668,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          142
       ],
       [
@@ -1687,7 +1687,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          201
       ],
       [
@@ -1706,7 +1706,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          531
       ],
       [
@@ -1728,7 +1728,7 @@
          },
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          29
       ],
       [
@@ -1747,7 +1747,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          245
       ],
       [
@@ -1769,7 +1769,7 @@
          },
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          175
       ],
       [
@@ -1798,13 +1798,13 @@
             "type": "struct statfs __user *buf",
             "def": {
                "line": 22,
-               "file": "arch/mips/include/uapi/asm/statfs.h"
+               "file": "/usr/src/linux-4.4.2/arch/mips/include/uapi/asm/statfs.h"
             }
          },
          "",
          "",
          "",
-         "fs/statfs.c",
+         "/usr/src/linux-4.4.2/fs/statfs.c",
          172
       ],
       [
@@ -1820,13 +1820,13 @@
             "type": "struct statfs __user *buf",
             "def": {
                "line": 22,
-               "file": "arch/mips/include/uapi/asm/statfs.h"
+               "file": "/usr/src/linux-4.4.2/arch/mips/include/uapi/asm/statfs.h"
             }
          },
          "",
          "",
          "",
-         "fs/statfs.c",
+         "/usr/src/linux-4.4.2/fs/statfs.c",
          193
       ],
       [
@@ -1867,8 +1867,8 @@
          "",
          "",
          "",
-         "net/socket.c",
-         2318
+         "/usr/src/linux-4.4.2/net/socket.c",
+         2313
       ],
       [
          103,
@@ -1889,8 +1889,8 @@
          },
          "",
          "",
-         "kernel/printk/printk.c",
-         1419
+         "/usr/src/linux-4.4.2/kernel/printk/printk.c",
+         1423
       ],
       [
          104,
@@ -1905,19 +1905,19 @@
             "type": "struct itimerval __user *value",
             "def": {
                "line": 39,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          {
             "type": "struct itimerval __user *ovalue",
             "def": {
                "line": 39,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          "",
          "",
-         "kernel/time/itimer.c",
+         "/usr/src/linux-4.4.2/kernel/time/itimer.c",
          278
       ],
       [
@@ -1933,13 +1933,13 @@
             "type": "struct itimerval __user *value",
             "def": {
                "line": 39,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          "",
          "",
          "",
-         "kernel/time/itimer.c",
+         "/usr/src/linux-4.4.2/kernel/time/itimer.c",
          103
       ],
       [
@@ -1955,13 +1955,13 @@
             "type": "struct stat __user *statbuf",
             "def": {
                "line": 4,
-               "file": "arch/alpha/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/stat.h"
             }
          },
          "",
          "",
          "",
-         "fs/stat.c",
+         "/usr/src/linux-4.4.2/fs/stat.c",
          266
       ],
       [
@@ -1977,13 +1977,13 @@
             "type": "struct stat __user *statbuf",
             "def": {
                "line": 4,
-               "file": "arch/alpha/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/stat.h"
             }
          },
          "",
          "",
          "",
-         "fs/stat.c",
+         "/usr/src/linux-4.4.2/fs/stat.c",
          277
       ],
       [
@@ -1999,13 +1999,13 @@
             "type": "struct stat __user *statbuf",
             "def": {
                "line": 4,
-               "file": "arch/alpha/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/stat.h"
             }
          },
          "",
          "",
          "",
-         "fs/stat.c",
+         "/usr/src/linux-4.4.2/fs/stat.c",
          304
       ],
       [
@@ -2017,14 +2017,14 @@
             "type": "struct old_utsname __user *",
             "def": {
                "line": 16,
-               "file": "include/uapi/linux/utsname.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/utsname.h"
             }
          },
          "",
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1161
       ],
       [
@@ -2040,7 +2040,7 @@
          "",
          "",
          "",
-         "arch/x86/kernel/ioport.c",
+         "/usr/src/linux-4.4.2/arch/x86/kernel/ioport.c",
          96
       ],
       [
@@ -2053,7 +2053,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          1118
       ],
       [
@@ -2078,15 +2078,15 @@
             "type": "struct vm86_struct __user *",
             "def": {
                "line": 96,
-               "file": "arch/x86/include/uapi/asm/vm86.h"
+               "file": "/usr/src/linux-4.4.2/arch/x86/include/uapi/asm/vm86.h"
             }
          },
          "",
          "",
          "",
          "",
-         "arch/x86/kernel/vm86_32.c",
-         205
+         "/usr/src/linux-4.4.2/arch/x86/kernel/vm86_32.c",
+         198
       ],
       [
          114,
@@ -2109,12 +2109,12 @@
             "type": "struct rusage __user *ru",
             "def": {
                "line": 23,
-               "file": "include/uapi/linux/resource.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/resource.h"
             }
          },
          "",
-         "kernel/exit.c",
-         1584
+         "/usr/src/linux-4.4.2/kernel/exit.c",
+         1588
       ],
       [
          115,
@@ -2129,8 +2129,8 @@
          "",
          "",
          "",
-         "mm/swapfile.c",
-         1802
+         "/usr/src/linux-4.4.2/mm/swapfile.c",
+         1844
       ],
       [
          116,
@@ -2145,8 +2145,8 @@
          "",
          "",
          "",
-         "kernel/sys.c",
-         2356
+         "/usr/src/linux-4.4.2/kernel/sys.c",
+         2355
       ],
       [
          117,
@@ -2158,7 +2158,7 @@
          "",
          "",
          "",
-         "ipc/syscall.c",
+         "/usr/src/linux-4.4.2/ipc/syscall.c",
          16
       ],
       [
@@ -2174,8 +2174,8 @@
          "",
          "",
          "",
-         "fs/sync.c",
-         220
+         "/usr/src/linux-4.4.2/fs/sync.c",
+         225
       ],
       [
          119,
@@ -2187,8 +2187,8 @@
          "",
          "",
          "",
-         "arch/s390/kernel/signal.c",
-         236
+         "/usr/src/linux-4.4.2/arch/s390/kernel/signal.c",
+         215
       ],
       [
          120,
@@ -2215,8 +2215,8 @@
             "type": "int __user *",
             "def": null
          },
-         "kernel/fork.c",
-         1795
+         "/usr/src/linux-4.4.2/kernel/fork.c",
+         1809
       ],
       [
          121,
@@ -2234,7 +2234,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1266
       ],
       [
@@ -2246,14 +2246,14 @@
             "type": "struct new_utsname __user *name",
             "def": {
                "line": 24,
-               "file": "include/uapi/linux/utsname.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/utsname.h"
             }
          },
          "",
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1141
       ],
       [
@@ -2287,14 +2287,14 @@
             "type": "struct timex __user *txc_p",
             "def": {
                "line": 64,
-               "file": "include/uapi/linux/timex.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/timex.h"
             }
          },
          "",
          "",
          "",
          "",
-         "kernel/time/time.c",
+         "/usr/src/linux-4.4.2/kernel/time/time.c",
          218
       ],
       [
@@ -2316,8 +2316,8 @@
          },
          "",
          "",
-         "mm/mprotect.c",
-         346
+         "/usr/src/linux-4.4.2/mm/mprotect.c",
+         347
       ],
       [
          126,
@@ -2338,8 +2338,8 @@
          },
          "",
          "",
-         "kernel/signal.c",
-         3299
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3250
       ],
       [
          127,
@@ -2373,8 +2373,8 @@
          },
          "",
          "",
-         "kernel/module.c",
-         3579
+         "/usr/src/linux-4.4.2/kernel/module.c",
+         3589
       ],
       [
          129,
@@ -2392,7 +2392,7 @@
          "",
          "",
          "",
-         "kernel/module.c",
+         "/usr/src/linux-4.4.2/kernel/module.c",
          950
       ],
       [
@@ -2430,7 +2430,7 @@
             "def": null
          },
          "",
-         "fs/quota/quota.c",
+         "/usr/src/linux-4.4.2/fs/quota/quota.c",
          760
       ],
       [
@@ -2446,7 +2446,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          990
       ],
       [
@@ -2462,7 +2462,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          444
       ],
       [
@@ -2481,8 +2481,8 @@
          "",
          "",
          "",
-         "fs/buffer.c",
-         3293
+         "/usr/src/linux-4.4.2/fs/buffer.c",
+         3270
       ],
       [
          135,
@@ -2503,7 +2503,7 @@
          },
          "",
          "",
-         "fs/filesystems.c",
+         "/usr/src/linux-4.4.2/fs/filesystems.c",
          184
       ],
       [
@@ -2519,7 +2519,7 @@
          "",
          "",
          "",
-         "kernel/exec_domain.c",
+         "/usr/src/linux-4.4.2/kernel/exec_domain.c",
          50
       ],
       [
@@ -2548,7 +2548,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          101
       ],
       [
@@ -2564,7 +2564,7 @@
          "",
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          106
       ],
       [
@@ -2592,7 +2592,7 @@
             "type": "unsigned int whence",
             "def": null
          },
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          302
       ],
       [
@@ -2608,7 +2608,7 @@
             "type": "struct linux_dirent __user *dirent",
             "def": {
                "line": 137,
-               "file": "fs/readdir.c"
+               "file": "/usr/src/linux-4.4.2/fs/readdir.c"
             }
          },
          {
@@ -2617,7 +2617,7 @@
          },
          "",
          "",
-         "fs/readdir.c",
+         "/usr/src/linux-4.4.2/fs/readdir.c",
          196
       ],
       [
@@ -2645,10 +2645,10 @@
             "type": "struct timeval __user *tvp",
             "def": {
                "line": 15,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
-         "fs/select.c",
+         "/usr/src/linux-4.4.2/fs/select.c",
          622
       ],
       [
@@ -2667,8 +2667,8 @@
          "",
          "",
          "",
-         "fs/locks.c",
-         1896
+         "/usr/src/linux-4.4.2/fs/locks.c",
+         1924
       ],
       [
          144,
@@ -2689,7 +2689,7 @@
          },
          "",
          "",
-         "mm/msync.c",
+         "/usr/src/linux-4.4.2/mm/msync.c",
          31
       ],
       [
@@ -2711,7 +2711,7 @@
          },
          "",
          "",
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          852
       ],
       [
@@ -2733,7 +2733,7 @@
          },
          "",
          "",
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          872
       ],
       [
@@ -2749,7 +2749,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1027
       ],
       [
@@ -2765,8 +2765,8 @@
          "",
          "",
          "",
-         "fs/sync.c",
-         225
+         "/usr/src/linux-4.4.2/fs/sync.c",
+         230
       ],
       [
          149,
@@ -2777,14 +2777,14 @@
             "type": "struct __sysctl_args __user *args",
             "def": {
                "line": 36,
-               "file": "include/uapi/linux/sysctl.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/sysctl.h"
             }
          },
          "",
          "",
          "",
          "",
-         "kernel/sysctl_binary.c",
+         "/usr/src/linux-4.4.2/kernel/sysctl_binary.c",
          1420
       ],
       [
@@ -2803,8 +2803,8 @@
          "",
          "",
          "",
-         "mm/mlock.c",
-         607
+         "/usr/src/linux-4.4.2/mm/mlock.c",
+         643
       ],
       [
          151,
@@ -2822,8 +2822,8 @@
          "",
          "",
          "",
-         "mm/mlock.c",
-         643
+         "/usr/src/linux-4.4.2/mm/mlock.c",
+         661
       ],
       [
          152,
@@ -2838,8 +2838,8 @@
          "",
          "",
          "",
-         "mm/mlock.c",
-         683
+         "/usr/src/linux-4.4.2/mm/mlock.c",
+         721
       ],
       [
          153,
@@ -2851,8 +2851,8 @@
          "",
          "",
          "",
-         "mm/mlock.c",
-         714
+         "/usr/src/linux-4.4.2/mm/mlock.c",
+         751
       ],
       [
          154,
@@ -2867,14 +2867,14 @@
             "type": "struct sched_param __user *param",
             "def": {
                "line": 9,
-               "file": "include/linux/sched.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/sched.h"
             }
          },
          "",
          "",
          "",
-         "kernel/sched/core.c",
-         4082
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4204
       ],
       [
          155,
@@ -2889,14 +2889,14 @@
             "type": "struct sched_param __user *param",
             "def": {
                "line": 9,
-               "file": "include/linux/sched.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/sched.h"
             }
          },
          "",
          "",
          "",
-         "kernel/sched/core.c",
-         4156
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4278
       ],
       [
          156,
@@ -2915,13 +2915,13 @@
             "type": "struct sched_param __user *param",
             "def": {
                "line": 9,
-               "file": "include/linux/sched.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/sched.h"
             }
          },
          "",
          "",
-         "kernel/sched/core.c",
-         4065
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4187
       ],
       [
          157,
@@ -2936,8 +2936,8 @@
          "",
          "",
          "",
-         "kernel/sched/core.c",
-         4127
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4249
       ],
       [
          158,
@@ -2949,8 +2949,8 @@
          "",
          "",
          "",
-         "kernel/sched/core.c",
-         4472
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4594
       ],
       [
          159,
@@ -2965,8 +2965,8 @@
          "",
          "",
          "",
-         "kernel/sched/core.c",
-         4681
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4803
       ],
       [
          160,
@@ -2981,8 +2981,8 @@
          "",
          "",
          "",
-         "kernel/sched/core.c",
-         4708
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4830
       ],
       [
          161,
@@ -3000,8 +3000,8 @@
          "",
          "",
          "",
-         "kernel/sched/core.c",
-         4737
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4859
       ],
       [
          162,
@@ -3019,8 +3019,8 @@
          "",
          "",
          "",
-         "kernel/time/hrtimer.c",
-         1559
+         "/usr/src/linux-4.4.2/kernel/time/hrtimer.c",
+         1586
       ],
       [
          163,
@@ -3047,8 +3047,8 @@
             "type": "unsigned long new_addr",
             "def": null
          },
-         "mm/mremap.c",
-         477
+         "/usr/src/linux-4.4.2/mm/mremap.c",
+         471
       ],
       [
          164,
@@ -3069,7 +3069,7 @@
          },
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          54
       ],
       [
@@ -3091,7 +3091,7 @@
          },
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          60
       ],
       [
@@ -3110,8 +3110,8 @@
          "",
          "",
          "",
-         "arch/x86/kernel/vm86_32.c",
-         230
+         "/usr/src/linux-4.4.2/arch/x86/kernel/vm86_32.c",
+         204
       ],
       [
          167,
@@ -3145,7 +3145,7 @@
          },
          "",
          "",
-         "fs/select.c",
+         "/usr/src/linux-4.4.2/fs/select.c",
          957
       ],
       [
@@ -3180,7 +3180,7 @@
          },
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          77
       ],
       [
@@ -3202,7 +3202,7 @@
          },
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          84
       ],
       [
@@ -3230,8 +3230,8 @@
             "type": "unsigned long arg5",
             "def": null
          },
-         "kernel/sys.c",
-         2076
+         "/usr/src/linux-4.4.2/kernel/sys.c",
+         2075
       ],
       [
          173,
@@ -3243,7 +3243,7 @@
          "",
          "",
          "",
-         "arch/arc/kernel/signal.c",
+         "/usr/src/linux-4.4.2/arch/arc/kernel/signal.c",
          152
       ],
       [
@@ -3259,14 +3259,14 @@
             "type": "const struct sigaction __user *",
             "def": {
                "line": 99,
-               "file": "arch/alpha/include/uapi/asm/signal.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/signal.h"
             }
          },
          {
             "type": "struct sigaction __user *",
             "def": {
                "line": 99,
-               "file": "arch/alpha/include/uapi/asm/signal.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/signal.h"
             }
          },
          {
@@ -3274,8 +3274,8 @@
             "def": null
          },
          "",
-         "kernel/signal.c",
-         3347
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3298
       ],
       [
          175,
@@ -3299,8 +3299,8 @@
             "def": null
          },
          "",
-         "kernel/signal.c",
-         2584
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         2535
       ],
       [
          176,
@@ -3318,8 +3318,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         2674
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         2625
       ],
       [
          177,
@@ -3343,8 +3343,8 @@
             "def": null
          },
          "",
-         "kernel/signal.c",
-         2860
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         2811
       ],
       [
          178,
@@ -3365,8 +3365,8 @@
          },
          "",
          "",
-         "kernel/signal.c",
-         3008
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         2959
       ],
       [
          179,
@@ -3384,8 +3384,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         3572
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3523
       ],
       [
          180,
@@ -3409,7 +3409,7 @@
             "def": null
          },
          "",
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          594
       ],
       [
@@ -3434,7 +3434,7 @@
             "def": null
          },
          "",
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          614
       ],
       [
@@ -3456,7 +3456,7 @@
          },
          "",
          "",
-         "kernel/uid16.c",
+         "/usr/src/linux-4.4.2/kernel/uid16.c",
          19
       ],
       [
@@ -3475,8 +3475,8 @@
          "",
          "",
          "",
-         "fs/dcache.c",
-         3241
+         "/usr/src/linux-4.4.2/fs/dcache.c",
+         3247
       ],
       [
          184,
@@ -3494,7 +3494,7 @@
          "",
          "",
          "",
-         "kernel/capability.c",
+         "/usr/src/linux-4.4.2/kernel/capability.c",
          149
       ],
       [
@@ -3513,7 +3513,7 @@
          "",
          "",
          "",
-         "kernel/capability.c",
+         "/usr/src/linux-4.4.2/kernel/capability.c",
          223
       ],
       [
@@ -3525,21 +3525,21 @@
             "type": "const struct sigaltstack __user *uss",
             "def": {
                "line": 113,
-               "file": "arch/alpha/include/uapi/asm/signal.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/signal.h"
             }
          },
          {
             "type": "struct sigaltstack __user *uoss",
             "def": {
                "line": 113,
-               "file": "arch/alpha/include/uapi/asm/signal.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/signal.h"
             }
          },
          "",
          "",
          "",
-         "kernel/signal.c",
-         3204
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3155
       ],
       [
          187,
@@ -3563,7 +3563,7 @@
             "def": null
          },
          "",
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          1255
       ],
       [
@@ -3602,8 +3602,8 @@
          "",
          "",
          "",
-         "kernel/fork.c",
-         1786
+         "/usr/src/linux-4.4.2/kernel/fork.c",
+         1800
       ],
       [
          191,
@@ -3621,7 +3621,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1290
       ],
       [
@@ -3634,8 +3634,8 @@
          "",
          "",
          "",
-         "mm/mmap.c",
-         1399
+         "/usr/src/linux-4.4.2/mm/mmap.c",
+         1410
       ],
       [
          193,
@@ -3653,7 +3653,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          215
       ],
       [
@@ -3672,7 +3672,7 @@
          "",
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          220
       ],
       [
@@ -3688,14 +3688,14 @@
             "type": "struct stat64 __user *statbuf",
             "def": {
                "line": 25,
-               "file": "arch/alpha/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/stat.h"
             }
          },
          "",
          "",
          "",
-         "fs/stat.c",
-         400
+         "/usr/src/linux-4.4.2/fs/stat.c",
+         398
       ],
       [
          196,
@@ -3710,14 +3710,14 @@
             "type": "struct stat64 __user *statbuf",
             "def": {
                "line": 25,
-               "file": "arch/alpha/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/stat.h"
             }
          },
          "",
          "",
          "",
-         "fs/stat.c",
-         412
+         "/usr/src/linux-4.4.2/fs/stat.c",
+         410
       ],
       [
          197,
@@ -3732,14 +3732,14 @@
             "type": "struct stat64 __user *statbuf",
             "def": {
                "line": 25,
-               "file": "arch/alpha/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/stat.h"
             }
          },
          "",
          "",
          "",
-         "fs/stat.c",
-         424
+         "/usr/src/linux-4.4.2/fs/stat.c",
+         422
       ],
       [
          198,
@@ -3760,7 +3760,7 @@
          },
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          646
       ],
       [
@@ -3773,7 +3773,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          858
       ],
       [
@@ -3786,7 +3786,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          870
       ],
       [
@@ -3799,7 +3799,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          864
       ],
       [
@@ -3812,7 +3812,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          876
       ],
       [
@@ -3831,7 +3831,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          462
       ],
       [
@@ -3850,7 +3850,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          329
       ],
       [
@@ -3869,7 +3869,7 @@
          "",
          "",
          "",
-         "kernel/groups.c",
+         "/usr/src/linux-4.4.2/kernel/groups.c",
          190
       ],
       [
@@ -3888,7 +3888,7 @@
          "",
          "",
          "",
-         "kernel/groups.c",
+         "/usr/src/linux-4.4.2/kernel/groups.c",
          227
       ],
       [
@@ -3910,7 +3910,7 @@
          },
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          652
       ],
       [
@@ -3932,7 +3932,7 @@
          },
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          580
       ],
       [
@@ -3954,7 +3954,7 @@
          },
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          645
       ],
       [
@@ -3976,7 +3976,7 @@
          },
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          667
       ],
       [
@@ -3998,7 +3998,7 @@
          },
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          719
       ],
       [
@@ -4020,7 +4020,7 @@
          },
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          641
       ],
       [
@@ -4036,7 +4036,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          533
       ],
       [
@@ -4052,7 +4052,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          386
       ],
       [
@@ -4068,7 +4068,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          746
       ],
       [
@@ -4084,7 +4084,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          785
       ],
       [
@@ -4103,7 +4103,7 @@
          "",
          "",
          "",
-         "fs/namespace.c",
+         "/usr/src/linux-4.4.2/fs/namespace.c",
          2977
       ],
       [
@@ -4125,7 +4125,7 @@
          },
          "",
          "",
-         "mm/mincore.c",
+         "/usr/src/linux-4.4.2/mm/mincore.c",
          220
       ],
       [
@@ -4147,8 +4147,8 @@
          },
          "",
          "",
-         "mm/madvise.c",
-         459
+         "/usr/src/linux-4.4.2/mm/madvise.c",
+         460
       ],
       [
          220,
@@ -4163,7 +4163,7 @@
             "type": "struct linux_dirent64 __user *dirent",
             "def": {
                "line": 4,
-               "file": "include/linux/dirent.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/dirent.h"
             }
          },
          {
@@ -4172,7 +4172,7 @@
          },
          "",
          "",
-         "fs/readdir.c",
+         "/usr/src/linux-4.4.2/fs/readdir.c",
          277
       ],
       [
@@ -4194,7 +4194,7 @@
          },
          "",
          "",
-         "fs/fcntl.c",
+         "/usr/src/linux-4.4.2/fs/fcntl.c",
          380
       ],
       [
@@ -4233,7 +4233,7 @@
          "",
          "",
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          836
       ],
       [
@@ -4255,8 +4255,8 @@
          },
          "",
          "",
-         "mm/readahead.c",
-         562
+         "/usr/src/linux-4.4.2/mm/readahead.c",
+         552
       ],
       [
          226,
@@ -4283,7 +4283,7 @@
             "type": "int flags",
             "def": null
          },
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          390
       ],
       [
@@ -4311,7 +4311,7 @@
             "type": "int flags",
             "def": null
          },
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          397
       ],
       [
@@ -4339,7 +4339,7 @@
             "type": "int flags",
             "def": null
          },
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          404
       ],
       [
@@ -4364,7 +4364,7 @@
             "def": null
          },
          "",
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          490
       ],
       [
@@ -4389,7 +4389,7 @@
             "def": null
          },
          "",
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          496
       ],
       [
@@ -4414,7 +4414,7 @@
             "def": null
          },
          "",
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          502
       ],
       [
@@ -4436,7 +4436,7 @@
          },
          "",
          "",
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          572
       ],
       [
@@ -4458,7 +4458,7 @@
          },
          "",
          "",
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          578
       ],
       [
@@ -4480,7 +4480,7 @@
          },
          "",
          "",
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          584
       ],
       [
@@ -4499,7 +4499,7 @@
          "",
          "",
          "",
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          637
       ],
       [
@@ -4518,7 +4518,7 @@
          "",
          "",
          "",
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          643
       ],
       [
@@ -4537,7 +4537,7 @@
          "",
          "",
          "",
-         "fs/xattr.c",
+         "/usr/src/linux-4.4.2/fs/xattr.c",
          649
       ],
       [
@@ -4556,8 +4556,8 @@
          "",
          "",
          "",
-         "kernel/signal.c",
-         2978
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         2929
       ],
       [
          239,
@@ -4581,7 +4581,7 @@
             "def": null
          },
          "",
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          1274
       ],
       [
@@ -4594,8 +4594,8 @@
          "",
          "",
          "",
-         "kernel/futex.c",
-         2996
+         "/usr/src/linux-4.4.2/kernel/futex.c",
+         3095
       ],
       [
          241,
@@ -4616,8 +4616,8 @@
          },
          "",
          "",
-         "kernel/sched/core.c",
-         4385
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4507
       ],
       [
          242,
@@ -4638,8 +4638,8 @@
          },
          "",
          "",
-         "kernel/sched/core.c",
-         4436
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4558
       ],
       [
          243,
@@ -4650,14 +4650,14 @@
             "type": "struct user_desc __user *",
             "def": {
                "line": 20,
-               "file": "arch/x86/include/uapi/asm/ldt.h"
+               "file": "/usr/src/linux-4.4.2/arch/x86/include/uapi/asm/ldt.h"
             }
          },
          "",
          "",
          "",
          "",
-         "arch/mips/kernel/syscall.c",
+         "/usr/src/linux-4.4.2/arch/mips/kernel/syscall.c",
          88
       ],
       [
@@ -4669,14 +4669,14 @@
             "type": "struct user_desc __user *",
             "def": {
                "line": 20,
-               "file": "arch/x86/include/uapi/asm/ldt.h"
+               "file": "/usr/src/linux-4.4.2/arch/x86/include/uapi/asm/ldt.h"
             }
          },
          "",
          "",
          "",
          "",
-         "arch/x86/kernel/tls.c",
+         "/usr/src/linux-4.4.2/arch/x86/kernel/tls.c",
          195
       ],
       [
@@ -4695,8 +4695,8 @@
          "",
          "",
          "",
-         "fs/aio.c",
-         1307
+         "/usr/src/linux-4.4.2/fs/aio.c",
+         1316
       ],
       [
          246,
@@ -4711,8 +4711,8 @@
          "",
          "",
          "",
-         "fs/aio.c",
-         1343
+         "/usr/src/linux-4.4.2/fs/aio.c",
+         1352
       ],
       [
          247,
@@ -4735,15 +4735,15 @@
             "type": "struct io_event __user *events",
             "def": {
                "line": 58,
-               "file": "include/uapi/linux/aio_abi.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/aio_abi.h"
             }
          },
          {
             "type": "struct timespec __user *timeout",
             "def": null
          },
-         "fs/aio.c",
-         1717
+         "/usr/src/linux-4.4.2/fs/aio.c",
+         1726
       ],
       [
          248,
@@ -4764,8 +4764,8 @@
          },
          "",
          "",
-         "fs/aio.c",
-         1628
+         "/usr/src/linux-4.4.2/fs/aio.c",
+         1637
       ],
       [
          249,
@@ -4784,13 +4784,13 @@
             "type": "struct io_event __user *result",
             "def": {
                "line": 58,
-               "file": "include/uapi/linux/aio_abi.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/aio_abi.h"
             }
          },
          "",
          "",
-         "fs/aio.c",
-         1665
+         "/usr/src/linux-4.4.2/fs/aio.c",
+         1674
       ],
       [
          250,
@@ -4814,7 +4814,7 @@
             "def": null
          },
          "",
-         "mm/fadvise.c",
+         "/usr/src/linux-4.4.2/mm/fadvise.c",
          157
       ],
       [
@@ -4843,8 +4843,8 @@
          "",
          "",
          "",
-         "kernel/exit.c",
-         883
+         "/usr/src/linux-4.4.2/kernel/exit.c",
+         887
       ],
       [
          253,
@@ -4865,7 +4865,7 @@
          },
          "",
          "",
-         "fs/dcookies.c",
+         "/usr/src/linux-4.4.2/fs/dcookies.c",
          149
       ],
       [
@@ -4881,7 +4881,7 @@
          "",
          "",
          "",
-         "fs/eventpoll.c",
+         "/usr/src/linux-4.4.2/fs/eventpoll.c",
          1807
       ],
       [
@@ -4905,11 +4905,11 @@
             "type": "struct epoll_event __user *event",
             "def": {
                "line": 59,
-               "file": "include/uapi/linux/eventpoll.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/eventpoll.h"
             }
          },
          "",
-         "fs/eventpoll.c",
+         "/usr/src/linux-4.4.2/fs/eventpoll.c",
          1820
       ],
       [
@@ -4925,7 +4925,7 @@
             "type": "struct epoll_event __user *events",
             "def": {
                "line": 59,
-               "file": "include/uapi/linux/eventpoll.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/eventpoll.h"
             }
          },
          {
@@ -4937,7 +4937,7 @@
             "def": null
          },
          "",
-         "fs/eventpoll.c",
+         "/usr/src/linux-4.4.2/fs/eventpoll.c",
          1961
       ],
       [
@@ -4965,8 +4965,8 @@
             "type": "unsigned long flags",
             "def": null
          },
-         "mm/mmap.c",
-         2630
+         "/usr/src/linux-4.4.2/mm/mmap.c",
+         2644
       ],
       [
          258,
@@ -4981,8 +4981,8 @@
          "",
          "",
          "",
-         "kernel/fork.c",
-         1193
+         "/usr/src/linux-4.4.2/kernel/fork.c",
+         1199
       ],
       [
          259,
@@ -4997,7 +4997,7 @@
             "type": "struct sigevent __user *timer_event_spec",
             "def": {
                "line": 285,
-               "file": "include/uapi/asm-generic/siginfo.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/asm-generic/siginfo.h"
             }
          },
          {
@@ -5006,7 +5006,7 @@
          },
          "",
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          602
       ],
       [
@@ -5026,18 +5026,18 @@
             "type": "const struct itimerspec __user *new_setting",
             "def": {
                "line": 34,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          {
             "type": "struct itimerspec __user *old_setting",
             "def": {
                "line": 34,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          881
       ],
       [
@@ -5053,13 +5053,13 @@
             "type": "struct itimerspec __user *setting",
             "def": {
                "line": 34,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          "",
          "",
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          777
       ],
       [
@@ -5075,7 +5075,7 @@
          "",
          "",
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          813
       ],
       [
@@ -5091,7 +5091,7 @@
          "",
          "",
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          944
       ],
       [
@@ -5110,7 +5110,7 @@
          "",
          "",
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          1012
       ],
       [
@@ -5129,7 +5129,7 @@
          "",
          "",
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          1027
       ],
       [
@@ -5148,7 +5148,7 @@
          "",
          "",
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          1068
       ],
       [
@@ -5173,7 +5173,7 @@
             "def": null
          },
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          1097
       ],
       [
@@ -5193,12 +5193,12 @@
             "type": "struct statfs64 __user *buf",
             "def": {
                "line": 65,
-               "file": "arch/mips/include/uapi/asm/statfs.h"
+               "file": "/usr/src/linux-4.4.2/arch/mips/include/uapi/asm/statfs.h"
             }
          },
          "",
          "",
-         "fs/statfs.c",
+         "/usr/src/linux-4.4.2/fs/statfs.c",
          181
       ],
       [
@@ -5218,12 +5218,12 @@
             "type": "struct statfs64 __user *buf",
             "def": {
                "line": 65,
-               "file": "arch/mips/include/uapi/asm/statfs.h"
+               "file": "/usr/src/linux-4.4.2/arch/mips/include/uapi/asm/statfs.h"
             }
          },
          "",
          "",
-         "fs/statfs.c",
+         "/usr/src/linux-4.4.2/fs/statfs.c",
          202
       ],
       [
@@ -5245,8 +5245,8 @@
          },
          "",
          "",
-         "kernel/signal.c",
-         2962
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         2913
       ],
       [
          271,
@@ -5261,13 +5261,13 @@
             "type": "struct timeval __user *utimes",
             "def": {
                "line": 15,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          "",
          "",
          "",
-         "fs/utimes.c",
+         "/usr/src/linux-4.4.2/fs/utimes.c",
          231
       ],
       [
@@ -5292,7 +5292,7 @@
             "def": null
          },
          "",
-         "mm/fadvise.c",
+         "/usr/src/linux-4.4.2/mm/fadvise.c",
          28
       ],
       [
@@ -5318,8 +5318,8 @@
          "",
          "",
          "",
-         "mm/mempolicy.c",
-         1301
+         "/usr/src/linux-4.4.2/mm/mempolicy.c",
+         1298
       ],
       [
          275,
@@ -5346,8 +5346,8 @@
             "type": "unsigned long flags",
             "def": null
          },
-         "mm/mempolicy.c",
-         1438
+         "/usr/src/linux-4.4.2/mm/mempolicy.c",
+         1435
       ],
       [
          276,
@@ -5368,8 +5368,8 @@
          },
          "",
          "",
-         "mm/mempolicy.c",
-         1323
+         "/usr/src/linux-4.4.2/mm/mempolicy.c",
+         1320
       ],
       [
          277,
@@ -5392,11 +5392,11 @@
             "type": "struct mq_attr __user *attr",
             "def": {
                "line": 25,
-               "file": "include/uapi/linux/mqueue.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/mqueue.h"
             }
          },
          "",
-         "ipc/mqueue.c",
+         "/usr/src/linux-4.4.2/ipc/mqueue.c",
          771
       ],
       [
@@ -5412,7 +5412,7 @@
          "",
          "",
          "",
-         "ipc/mqueue.c",
+         "/usr/src/linux-4.4.2/ipc/mqueue.c",
          852
       ],
       [
@@ -5440,7 +5440,7 @@
             "type": "const struct timespec __user *abs_timeout",
             "def": null
          },
-         "ipc/mqueue.c",
+         "/usr/src/linux-4.4.2/ipc/mqueue.c",
          958
       ],
       [
@@ -5468,7 +5468,7 @@
             "type": "const struct timespec __user *abs_timeout",
             "def": null
          },
-         "ipc/mqueue.c",
+         "/usr/src/linux-4.4.2/ipc/mqueue.c",
          1079
       ],
       [
@@ -5484,13 +5484,13 @@
             "type": "const struct sigevent __user *notification",
             "def": {
                "line": 285,
-               "file": "include/uapi/asm-generic/siginfo.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/asm-generic/siginfo.h"
             }
          },
          "",
          "",
          "",
-         "ipc/mqueue.c",
+         "/usr/src/linux-4.4.2/ipc/mqueue.c",
          1189
       ],
       [
@@ -5506,19 +5506,19 @@
             "type": "const struct mq_attr __user *mqstat",
             "def": {
                "line": 25,
-               "file": "include/uapi/linux/mqueue.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/mqueue.h"
             }
          },
          {
             "type": "struct mq_attr __user *omqstat",
             "def": {
                "line": 25,
-               "file": "include/uapi/linux/mqueue.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/mqueue.h"
             }
          },
          "",
          "",
-         "ipc/mqueue.c",
+         "/usr/src/linux-4.4.2/ipc/mqueue.c",
          1321
       ],
       [
@@ -5538,7 +5538,7 @@
             "type": "struct kexec_segment __user *segments",
             "def": {
                "line": 85,
-               "file": "include/linux/kexec.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/kexec.h"
             }
          },
          {
@@ -5546,8 +5546,8 @@
             "def": null
          },
          "",
-         "kernel/kexec.c",
-         1250
+         "/usr/src/linux-4.4.2/kernel/kexec.c",
+         127
       ],
       [
          284,
@@ -5566,7 +5566,7 @@
             "type": "struct siginfo __user *infop",
             "def": {
                "line": 19,
-               "file": "arch/ia64/include/uapi/asm/siginfo.h"
+               "file": "/usr/src/linux-4.4.2/arch/ia64/include/uapi/asm/siginfo.h"
             }
          },
          {
@@ -5577,11 +5577,11 @@
             "type": "struct rusage __user *ru",
             "def": {
                "line": 23,
-               "file": "include/uapi/linux/resource.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/resource.h"
             }
          },
-         "kernel/exit.c",
-         1516
+         "/usr/src/linux-4.4.2/kernel/exit.c",
+         1520
       ],
       [
          285,
@@ -5621,7 +5621,7 @@
             "type": "key_serial_t destringid",
             "def": null
          },
-         "security/keys/keyctl.c",
+         "/usr/src/linux-4.4.2/security/keys/keyctl.c",
          60
       ],
       [
@@ -5646,8 +5646,8 @@
             "def": null
          },
          "",
-         "security/keys/keyctl.c",
-         164
+         "/usr/src/linux-4.4.2/security/keys/keyctl.c",
+         158
       ],
       [
          288,
@@ -5674,8 +5674,8 @@
             "type": "unsigned long arg5",
             "def": null
          },
-         "security/keys/keyctl.c",
-         1559
+         "/usr/src/linux-4.4.2/security/keys/keyctl.c",
+         1553
       ],
       [
          289,
@@ -5696,7 +5696,7 @@
          },
          "",
          "",
-         "block/ioprio.c",
+         "/usr/src/linux-4.4.2/block/ioprio.c",
          61
       ],
       [
@@ -5715,8 +5715,8 @@
          "",
          "",
          "",
-         "block/ioprio.c",
-         178
+         "/usr/src/linux-4.4.2/block/ioprio.c",
+         179
       ],
       [
          291,
@@ -5728,7 +5728,7 @@
          "",
          "",
          "",
-         "fs/notify/inotify/inotify_user.c",
+         "/usr/src/linux-4.4.2/fs/notify/inotify/inotify_user.c",
          694
       ],
       [
@@ -5750,7 +5750,7 @@
          },
          "",
          "",
-         "fs/notify/inotify/inotify_user.c",
+         "/usr/src/linux-4.4.2/fs/notify/inotify/inotify_user.c",
          699
       ],
       [
@@ -5769,8 +5769,8 @@
          "",
          "",
          "",
-         "fs/notify/inotify/inotify_user.c",
-         744
+         "/usr/src/linux-4.4.2/fs/notify/inotify/inotify_user.c",
+         756
       ],
       [
          294,
@@ -5794,8 +5794,8 @@
             "def": null
          },
          "",
-         "mm/mempolicy.c",
-         1342
+         "/usr/src/linux-4.4.2/mm/mempolicy.c",
+         1339
       ],
       [
          295,
@@ -5819,7 +5819,7 @@
             "def": null
          },
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          1046
       ],
       [
@@ -5841,8 +5841,8 @@
          },
          "",
          "",
-         "fs/namei.c",
-         3586
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         3609
       ],
       [
          297,
@@ -5866,8 +5866,8 @@
             "def": null
          },
          "",
-         "fs/namei.c",
-         3513
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         3536
       ],
       [
          298,
@@ -5894,7 +5894,7 @@
             "type": "int flag",
             "def": null
          },
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          609
       ],
       [
@@ -5914,12 +5914,12 @@
             "type": "struct timeval __user *utimes",
             "def": {
                "line": 15,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          "",
          "",
-         "fs/utimes.c",
+         "/usr/src/linux-4.4.2/fs/utimes.c",
          203
       ],
       [
@@ -5939,7 +5939,7 @@
             "type": "struct stat64 __user *statbuf",
             "def": {
                "line": 25,
-               "file": "arch/alpha/include/uapi/asm/stat.h"
+               "file": "/usr/src/linux-4.4.2/arch/alpha/include/uapi/asm/stat.h"
             }
          },
          {
@@ -5947,8 +5947,8 @@
             "def": null
          },
          "",
-         "fs/stat.c",
-         435
+         "/usr/src/linux-4.4.2/fs/stat.c",
+         433
       ],
       [
          301,
@@ -5969,8 +5969,8 @@
          },
          "",
          "",
-         "fs/namei.c",
-         3881
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         3904
       ],
       [
          302,
@@ -5994,8 +5994,8 @@
             "def": null
          },
          "",
-         "fs/namei.c",
-         4432
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         4455
       ],
       [
          303,
@@ -6022,8 +6022,8 @@
             "type": "int flags",
             "def": null
          },
-         "fs/namei.c",
-         4036
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         4059
       ],
       [
          304,
@@ -6044,8 +6044,8 @@
          },
          "",
          "",
-         "fs/namei.c",
-         3918
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         3941
       ],
       [
          305,
@@ -6069,7 +6069,7 @@
             "def": null
          },
          "",
-         "fs/stat.c",
+         "/usr/src/linux-4.4.2/fs/stat.c",
          315
       ],
       [
@@ -6091,7 +6091,7 @@
          },
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          544
       ],
       [
@@ -6113,7 +6113,7 @@
          },
          "",
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          337
       ],
       [
@@ -6126,7 +6126,7 @@
          "",
          "",
          "",
-         "fs/select.c",
+         "/usr/src/linux-4.4.2/fs/select.c",
          700
       ],
       [
@@ -6154,7 +6154,7 @@
             "type": "size_t sigsetsize",
             "def": null
          },
-         "fs/select.c",
+         "/usr/src/linux-4.4.2/fs/select.c",
          991
       ],
       [
@@ -6170,8 +6170,8 @@
          "",
          "",
          "",
-         "kernel/fork.c",
-         1934
+         "/usr/src/linux-4.4.2/kernel/fork.c",
+         1956
       ],
       [
          311,
@@ -6182,7 +6182,7 @@
             "type": "struct robust_list_head __user *head",
             "def": {
                "line": 69,
-               "file": "include/uapi/linux/futex.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/futex.h"
             }
          },
          {
@@ -6192,8 +6192,8 @@
          "",
          "",
          "",
-         "kernel/futex.c",
-         2740
+         "/usr/src/linux-4.4.2/kernel/futex.c",
+         2839
       ],
       [
          312,
@@ -6208,7 +6208,7 @@
             "type": "struct robust_list_head __user * __user *head_ptr",
             "def": {
                "line": 69,
-               "file": "include/uapi/linux/futex.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/futex.h"
             }
          },
          {
@@ -6217,8 +6217,8 @@
          },
          "",
          "",
-         "kernel/futex.c",
-         2762
+         "/usr/src/linux-4.4.2/kernel/futex.c",
+         2861
       ],
       [
          313,
@@ -6230,8 +6230,8 @@
          "",
          "",
          "",
-         "fs/splice.c",
-         1678
+         "/usr/src/linux-4.4.2/fs/splice.c",
+         1686
       ],
       [
          314,
@@ -6255,8 +6255,8 @@
             "def": null
          },
          "",
-         "fs/sync.c",
-         277
+         "/usr/src/linux-4.4.2/fs/sync.c",
+         282
       ],
       [
          315,
@@ -6280,8 +6280,8 @@
             "def": null
          },
          "",
-         "fs/splice.c",
-         2011
+         "/usr/src/linux-4.4.2/fs/splice.c",
+         2019
       ],
       [
          316,
@@ -6305,8 +6305,8 @@
             "def": null
          },
          "",
-         "fs/splice.c",
-         1632
+         "/usr/src/linux-4.4.2/fs/splice.c",
+         1640
       ],
       [
          317,
@@ -6318,8 +6318,8 @@
          "",
          "",
          "",
-         "mm/migrate.c",
-         1459
+         "/usr/src/linux-4.4.2/mm/migrate.c",
+         1473
       ],
       [
          318,
@@ -6338,13 +6338,13 @@
             "type": "struct getcpu_cache __user *cache",
             "def": {
                "line": 14,
-               "file": "include/linux/getcpu.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/getcpu.h"
             }
          },
          "",
          "",
-         "kernel/sys.c",
-         2277
+         "/usr/src/linux-4.4.2/kernel/sys.c",
+         2276
       ],
       [
          319,
@@ -6356,7 +6356,7 @@
          "",
          "",
          "",
-         "fs/eventpoll.c",
+         "/usr/src/linux-4.4.2/fs/eventpoll.c",
          2007
       ],
       [
@@ -6381,7 +6381,7 @@
             "def": null
          },
          "",
-         "fs/utimes.c",
+         "/usr/src/linux-4.4.2/fs/utimes.c",
          185
       ],
       [
@@ -6403,7 +6403,7 @@
          },
          "",
          "",
-         "fs/signalfd.c",
+         "/usr/src/linux-4.4.2/fs/signalfd.c",
          309
       ],
       [
@@ -6422,7 +6422,7 @@
          "",
          "",
          "",
-         "fs/timerfd.c",
+         "/usr/src/linux-4.4.2/fs/timerfd.c",
          376
       ],
       [
@@ -6438,7 +6438,7 @@
          "",
          "",
          "",
-         "fs/eventfd.c",
+         "/usr/src/linux-4.4.2/fs/eventfd.c",
          445
       ],
       [
@@ -6463,7 +6463,7 @@
             "def": null
          },
          "",
-         "fs/open.c",
+         "/usr/src/linux-4.4.2/fs/open.c",
          320
       ],
       [
@@ -6483,18 +6483,18 @@
             "type": "const struct itimerspec __user *utmr",
             "def": {
                "line": 34,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          {
             "type": "struct itimerspec __user *otmr",
             "def": {
                "line": 34,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          "",
-         "fs/timerfd.c",
+         "/usr/src/linux-4.4.2/fs/timerfd.c",
          514
       ],
       [
@@ -6510,13 +6510,13 @@
             "type": "struct itimerspec __user *otmr",
             "def": {
                "line": 34,
-               "file": "include/uapi/linux/time.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/time.h"
             }
          },
          "",
          "",
          "",
-         "fs/timerfd.c",
+         "/usr/src/linux-4.4.2/fs/timerfd.c",
          532
       ],
       [
@@ -6541,7 +6541,7 @@
             "def": null
          },
          "",
-         "fs/signalfd.c",
+         "/usr/src/linux-4.4.2/fs/signalfd.c",
          255
       ],
       [
@@ -6560,7 +6560,7 @@
          "",
          "",
          "",
-         "fs/eventfd.c",
+         "/usr/src/linux-4.4.2/fs/eventfd.c",
          420
       ],
       [
@@ -6576,7 +6576,7 @@
          "",
          "",
          "",
-         "fs/eventpoll.c",
+         "/usr/src/linux-4.4.2/fs/eventpoll.c",
          1764
       ],
       [
@@ -6598,8 +6598,8 @@
          },
          "",
          "",
-         "fs/file.c",
-         851
+         "/usr/src/linux-4.4.2/fs/file.c",
+         883
       ],
       [
          331,
@@ -6617,8 +6617,8 @@
          "",
          "",
          "",
-         "fs/pipe.c",
-         777
+         "/usr/src/linux-4.4.2/fs/pipe.c",
+         779
       ],
       [
          332,
@@ -6633,7 +6633,7 @@
          "",
          "",
          "",
-         "fs/notify/inotify/inotify_user.c",
+         "/usr/src/linux-4.4.2/fs/notify/inotify/inotify_user.c",
          669
       ],
       [
@@ -6661,7 +6661,7 @@
             "type": "unsigned long pos_h",
             "def": null
          },
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          898
       ],
       [
@@ -6689,7 +6689,7 @@
             "type": "unsigned long pos_h",
             "def": null
          },
-         "fs/read_write.c",
+         "/usr/src/linux-4.4.2/fs/read_write.c",
          922
       ],
       [
@@ -6714,8 +6714,8 @@
             "def": null
          },
          "",
-         "kernel/signal.c",
-         3049
+         "/usr/src/linux-4.4.2/kernel/signal.c",
+         3000
       ],
       [
          336,
@@ -6725,8 +6725,8 @@
          {
             "type": "struct perf_event_attr __user *attr_uptr",
             "def": {
-               "line": 271,
-               "file": "include/uapi/linux/perf_event.h"
+               "line": 274,
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/perf_event.h"
             }
          },
          {
@@ -6745,8 +6745,8 @@
             "type": "unsigned long flags",
             "def": null
          },
-         "kernel/events/core.c",
-         7928
+         "/usr/src/linux-4.4.2/kernel/events/core.c",
+         8246
       ],
       [
          337,
@@ -6761,7 +6761,7 @@
             "type": "struct mmsghdr __user *msg",
             "def": {
                "line": 68,
-               "file": "include/linux/socket.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/socket.h"
             }
          },
          {
@@ -6776,8 +6776,8 @@
             "type": "struct timespec __user *timeout",
             "def": null
          },
-         "net/socket.c",
-         2273
+         "/usr/src/linux-4.4.2/net/socket.c",
+         2268
       ],
       [
          338,
@@ -6795,8 +6795,8 @@
          "",
          "",
          "",
-         "fs/notify/fanotify/fanotify_user.c",
-         690
+         "/usr/src/linux-4.4.2/fs/notify/fanotify/fanotify_user.c",
+         694
       ],
       [
          339,
@@ -6823,8 +6823,8 @@
             "type": "const char __user *pathname",
             "def": null
          },
-         "fs/notify/fanotify/fanotify_user.c",
-         800
+         "/usr/src/linux-4.4.2/fs/notify/fanotify/fanotify_user.c",
+         804
       ],
       [
          340,
@@ -6843,18 +6843,18 @@
             "type": "const struct rlimit64 __user *new_rlim",
             "def": {
                "line": 49,
-               "file": "include/uapi/linux/resource.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/resource.h"
             }
          },
          {
             "type": "struct rlimit64 __user *old_rlim",
             "def": {
                "line": 49,
-               "file": "include/uapi/linux/resource.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/resource.h"
             }
          },
          "",
-         "kernel/sys.c",
+         "/usr/src/linux-4.4.2/kernel/sys.c",
          1448
       ],
       [
@@ -6882,7 +6882,7 @@
             "type": "int flag",
             "def": null
          },
-         "fs/fhandle.c",
+         "/usr/src/linux-4.4.2/fs/fhandle.c",
          92
       ],
       [
@@ -6904,7 +6904,7 @@
          },
          "",
          "",
-         "fs/fhandle.c",
+         "/usr/src/linux-4.4.2/fs/fhandle.c",
          255
       ],
       [
@@ -6920,13 +6920,13 @@
             "type": "struct timex __user *tx",
             "def": {
                "line": 64,
-               "file": "include/uapi/linux/timex.h"
+               "file": "/usr/src/linux-4.4.2/include/uapi/linux/timex.h"
             }
          },
          "",
          "",
          "",
-         "kernel/time/posix-timers.c",
+         "/usr/src/linux-4.4.2/kernel/time/posix-timers.c",
          1045
       ],
       [
@@ -6942,8 +6942,8 @@
          "",
          "",
          "",
-         "fs/sync.c",
-         149
+         "/usr/src/linux-4.4.2/fs/sync.c",
+         154
       ],
       [
          345,
@@ -6958,7 +6958,7 @@
             "type": "struct mmsghdr __user *msg",
             "def": {
                "line": 68,
-               "file": "include/linux/socket.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/socket.h"
             }
          },
          {
@@ -6970,8 +6970,8 @@
             "def": null
          },
          "",
-         "net/socket.c",
-         2060
+         "/usr/src/linux-4.4.2/net/socket.c",
+         2055
       ],
       [
          346,
@@ -6989,7 +6989,7 @@
          "",
          "",
          "",
-         "kernel/nsproxy.c",
+         "/usr/src/linux-4.4.2/kernel/nsproxy.c",
          221
       ],
       [
@@ -7002,7 +7002,7 @@
          "",
          "",
          "",
-         "mm/process_vm_access.c",
+         "/usr/src/linux-4.4.2/mm/process_vm_access.c",
          287
       ],
       [
@@ -7015,7 +7015,7 @@
          "",
          "",
          "",
-         "mm/process_vm_access.c",
+         "/usr/src/linux-4.4.2/mm/process_vm_access.c",
          294
       ],
       [
@@ -7043,7 +7043,7 @@
             "type": "unsigned long idx2",
             "def": null
          },
-         "kernel/kcmp.c",
+         "/usr/src/linux-4.4.2/kernel/kcmp.c",
          97
       ],
       [
@@ -7065,8 +7065,8 @@
          },
          "",
          "",
-         "kernel/module.c",
-         3599
+         "/usr/src/linux-4.4.2/kernel/module.c",
+         3609
       ],
       [
          351,
@@ -7081,7 +7081,7 @@
             "type": "struct sched_attr __user *attr",
             "def": {
                "line": 111,
-               "file": "include/linux/sched.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/sched.h"
             }
          },
          {
@@ -7090,8 +7090,8 @@
          },
          "",
          "",
-         "kernel/sched/core.c",
-         4093
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4215
       ],
       [
          352,
@@ -7106,7 +7106,7 @@
             "type": "struct sched_attr __user *attr",
             "def": {
                "line": 111,
-               "file": "include/linux/sched.h"
+               "file": "/usr/src/linux-4.4.2/include/linux/sched.h"
             }
          },
          {
@@ -7118,8 +7118,8 @@
             "def": null
          },
          "",
-         "kernel/sched/core.c",
-         4234
+         "/usr/src/linux-4.4.2/kernel/sched/core.c",
+         4356
       ],
       [
          353,
@@ -7146,8 +7146,8 @@
             "type": "unsigned int flags",
             "def": null
          },
-         "fs/namei.c",
-         4289
+         "/usr/src/linux-4.4.2/fs/namei.c",
+         4312
       ],
       [
          354,
@@ -7168,8 +7168,8 @@
          },
          "",
          "",
-         "kernel/seccomp.c",
-         824
+         "/usr/src/linux-4.4.2/kernel/seccomp.c",
+         832
       ],
       [
          355,
@@ -7190,7 +7190,7 @@
          },
          "",
          "",
-         "drivers/char/random.c",
+         "/usr/src/linux-4.4.2/drivers/char/random.c",
          1601
       ],
       [
@@ -7209,8 +7209,8 @@
          "",
          "",
          "",
-         "mm/shmem.c",
-         2907
+         "/usr/src/linux-4.4.2/mm/shmem.c",
+         2924
       ],
       [
          357,
@@ -7231,8 +7231,8 @@
          },
          "",
          "",
-         "kernel/bpf/syscall.c",
-         589
+         "/usr/src/linux-4.4.2/kernel/bpf/syscall.c",
+         709
       ],
       [
          358,
@@ -7259,8 +7259,410 @@
             "type": "int flags",
             "def": null
          },
-         "fs/exec.c",
-         1712
+         "/usr/src/linux-4.4.2/fs/exec.c",
+         1718
+      ],
+      [
+         359,
+         "sys_socket",
+         "(int, int, int)",
+         "0x167",
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "int",
+            "def": null
+         },
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1213
+      ],
+      [
+         360,
+         "sys_socketpair",
+         "(int, int, int, int __user *)",
+         "0x168",
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "int __user *",
+            "def": null
+         },
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1254
+      ],
+      [
+         361,
+         "sys_bind",
+         "(int, struct sockaddr __user *, int)",
+         "0x169",
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "struct sockaddr __user *",
+            "def": {
+               "line": 29,
+               "file": "/usr/src/linux-4.4.2/include/linux/socket.h"
+            }
+         },
+         {
+            "type": "int",
+            "def": null
+         },
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1363
+      ],
+      [
+         362,
+         "sys_connect",
+         "(int, struct sockaddr __user *, int)",
+         "0x16a",
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "struct sockaddr __user *",
+            "def": {
+               "line": 29,
+               "file": "/usr/src/linux-4.4.2/include/linux/socket.h"
+            }
+         },
+         {
+            "type": "int",
+            "def": null
+         },
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1524
+      ],
+      [
+         363,
+         "sys_listen",
+         "(int, int)",
+         "0x16b",
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "int",
+            "def": null
+         },
+         "",
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1392
+      ],
+      [
+         364,
+         "sys_accept4",
+         "(int, struct sockaddr __user *, int __user *, int)",
+         "0x16c",
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "struct sockaddr __user *",
+            "def": {
+               "line": 29,
+               "file": "/usr/src/linux-4.4.2/include/linux/socket.h"
+            }
+         },
+         {
+            "type": "int __user *",
+            "def": null
+         },
+         {
+            "type": "int",
+            "def": null
+         },
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1425
+      ],
+      [
+         365,
+         "sys_getsockopt",
+         "(int fd, int level, int optname, char __user *optval, int __user *optlen)",
+         "0x16d",
+         {
+            "type": "int fd",
+            "def": null
+         },
+         {
+            "type": "int level",
+            "def": null
+         },
+         {
+            "type": "int optname",
+            "def": null
+         },
+         {
+            "type": "char __user *optval",
+            "def": null
+         },
+         {
+            "type": "int __user *optlen",
+            "def": null
+         },
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1765
+      ],
+      [
+         366,
+         "sys_setsockopt",
+         "(int fd, int level, int optname, char __user *optval, int optlen)",
+         "0x16e",
+         {
+            "type": "int fd",
+            "def": null
+         },
+         {
+            "type": "int level",
+            "def": null
+         },
+         {
+            "type": "int optname",
+            "def": null
+         },
+         {
+            "type": "char __user *optval",
+            "def": null
+         },
+         {
+            "type": "int optlen",
+            "def": null
+         },
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1731
+      ],
+      [
+         367,
+         "sys_getsockname",
+         "(int, struct sockaddr __user *, int __user *)",
+         "0x16f",
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "struct sockaddr __user *",
+            "def": {
+               "line": 29,
+               "file": "/usr/src/linux-4.4.2/include/linux/socket.h"
+            }
+         },
+         {
+            "type": "int __user *",
+            "def": null
+         },
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1556
+      ],
+      [
+         368,
+         "sys_getpeername",
+         "(int, struct sockaddr __user *, int __user *)",
+         "0x170",
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "struct sockaddr __user *",
+            "def": {
+               "line": 29,
+               "file": "/usr/src/linux-4.4.2/include/linux/socket.h"
+            }
+         },
+         {
+            "type": "int __user *",
+            "def": null
+         },
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1587
+      ],
+      [
+         369,
+         "sys_sendto",
+         "(int, void __user *, size_t, unsigned, struct sockaddr __user *, int)",
+         "0x171",
+         "param addr*",
+         "",
+         "",
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1619
+      ],
+      [
+         370,
+         "sys_sendmsg",
+         "(int fd, struct user_msghdr __user *msg, unsigned flags)",
+         "0x172",
+         {
+            "type": "int fd",
+            "def": null
+         },
+         {
+            "type": "struct user_msghdr __user *msg",
+            "def": {
+               "line": 57,
+               "file": "/usr/src/linux-4.4.2/include/linux/socket.h"
+            }
+         },
+         {
+            "type": "unsigned flags",
+            "def": null
+         },
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1988
+      ],
+      [
+         371,
+         "sys_recvfrom",
+         "(int, void __user *, size_t, unsigned, struct sockaddr __user *, int __user *)",
+         "0x173",
+         "param addr*",
+         "",
+         "",
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1675
+      ],
+      [
+         372,
+         "sys_recvmsg",
+         "(int fd, struct user_msghdr __user *msg, unsigned flags)",
+         "0x174",
+         {
+            "type": "int fd",
+            "def": null
+         },
+         {
+            "type": "struct user_msghdr __user *msg",
+            "def": {
+               "line": 57,
+               "file": "/usr/src/linux-4.4.2/include/linux/socket.h"
+            }
+         },
+         {
+            "type": "unsigned flags",
+            "def": null
+         },
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         2152
+      ],
+      [
+         373,
+         "sys_shutdown",
+         "(int, int)",
+         "0x175",
+         {
+            "type": "int",
+            "def": null
+         },
+         {
+            "type": "int",
+            "def": null
+         },
+         "",
+         "",
+         "",
+         "/usr/src/linux-4.4.2/net/socket.c",
+         1795
+      ],
+      [
+         374,
+         "sys_userfaultfd",
+         "(int flags)",
+         "0x176",
+         {
+            "type": "int flags",
+            "def": null
+         },
+         "",
+         "",
+         "",
+         "",
+         "/usr/src/linux-4.4.2/fs/userfaultfd.c",
+         1298
+      ],
+      [
+         375,
+         "sys_membarrier",
+         "(int cmd, int flags)",
+         "0x177",
+         {
+            "type": "int cmd",
+            "def": null
+         },
+         {
+            "type": "int flags",
+            "def": null
+         },
+         "",
+         "",
+         "",
+         "/usr/src/linux-4.4.2/kernel/membarrier.c",
+         52
+      ],
+      [
+         376,
+         "sys_mlock2",
+         "(unsigned long start, size_t len, int flags)",
+         "0x178",
+         {
+            "type": "unsigned long start",
+            "def": null
+         },
+         {
+            "type": "size_t len",
+            "def": null
+         },
+         {
+            "type": "int flags",
+            "def": null
+         },
+         "",
+         "",
+         "/usr/src/linux-4.4.2/mm/mlock.c",
+         648
       ]
    ]
 }

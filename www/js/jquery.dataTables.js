@@ -1106,9 +1106,9 @@
 			 * Notes:    These variable must NOT be used externally to get the data length. Rather, use
 			 *   the fnRecordsTotal() (etc) functions.
 			 */
-			this._iDisplayLength = 10;
+			this._iDisplayLength = 20;
 			this._iDisplayStart = 0;
-			this._iDisplayEnd = 10;
+			this._iDisplayEnd = 20;
 			
 			/*
 			 * Variable: _iRecordsTotal, _iRecordsDisplay
@@ -3761,7 +3761,7 @@
 			{
 				if ( oSettings._iDisplayLength >= 0 )
 				{
-					var iPages = parseInt( (oSettings.fnRecordsDisplay()-1) / oSettings._iDisplayLength, 10 ) + 1;
+					var iPages = parseInt( (oSettings.fnRecordsDisplay()-1) / oSettings._iDisplayLength, 20 ) + 1;
 					oSettings._iDisplayStart = (iPages-1) * oSettings._iDisplayLength;
 				}
 				else
@@ -3925,7 +3925,7 @@
 				}
 				
 				/* Redraw the table */
-				oSettings._iDisplayLength = parseInt(iVal, 10);
+				oSettings._iDisplayLength = parseInt(iVal, 20);
 				_fnCalculateEnd( oSettings );
 				
 				/* If we have space to show extra rows (backing up from the end point - then do so */

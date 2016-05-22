@@ -26,7 +26,7 @@
       var renderReg = function (obj) {
         if(obj.aData[obj.iDataColumn].type != null)
           if(obj.aData[obj.iDataColumn].def != null && obj.aData[obj.iDataColumn].file != "")
-            return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+obj.aData[obj.iDataColumn].def.file+"#L"+obj.aData[obj.iDataColumn].def.line+"'>"+obj.aData[obj.iDataColumn].type+"</a>";
+            return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+obj.aData[obj.iDataColumn].def.file+"?v=2.6.35#L"+obj.aData[obj.iDataColumn].def.line+"'>"+obj.aData[obj.iDataColumn].type+"</a>";
           else
             return obj.aData[obj.iDataColumn].type;
         else

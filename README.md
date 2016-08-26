@@ -1,5 +1,5 @@
 # syscall-table
-Generate JSON system call table from Linux source. Hosted at http://syscalls.kernelgrok.com.
+Generate JSON system call table from Linux source. Hosted at https://syscalls.paolostivanin.com.
 
 ## Generating JSON
 * Install ctags (http://ctags.sourceforge.net)

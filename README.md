@@ -16,7 +16,7 @@ Generate JSON system call table from Linux source. Hosted at https://syscalls.pa
 * `www` dir checked into gh-pages branch w/ JSON file using `deploy.sh`
 
 ## Kernel version
-Generated from Linux kernel v4.7.2
+Generated from Linux kernel 4.7
 
 ## Contributors
 * Paolo Stivanin (https://github.com/paolostivanin)

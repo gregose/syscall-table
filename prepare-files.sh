@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KERNEL_VERSION="4.7.2"
+KERNEL_VERSION="4.7"
 LINK="https://www.kernel.org/pub/linux/kernel/v4.x/linux-${KERNEL_VERSION}.tar.xz"
 DIR="/usr/src"
 

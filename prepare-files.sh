@@ -37,4 +37,4 @@ rm -rf "${DIR}/linux-${KERNEL_VERSION}"
 rm -rf "/tmp/linux-${KERNEL_VERSION}.tar.xz"
 echo "[I] Calling gen_syscalls..."
 ./gen_syscalls.py > www/syscalls-x86.js
-sed -i "s/\/usr\/src\/linux-${KERNEL_VERSION//g" www/syscalls-x86.js
+sed -i "s/\/usr\/src\/linux-${KERNEL_VERSION}//g" www/syscalls-x86.js

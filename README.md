@@ -1,5 +1,5 @@
-# syscall-table
-Generate JSON system call table from Linux source. Hosted at https://syscalls.paolostivanin.com.
+# syscall-table (32-bit)
+Generate JSON system call table from Linux source. Hosted at https://syscalls32.paolostivanin.com.
 
 ## Generating JSON
 * Install ctags (http://ctags.sourceforge.net)
@@ -8,7 +8,6 @@ Generate JSON system call table from Linux source. Hosted at https://syscalls.pa
 * Move the extraced folder to `/usr/src/linux-$VERSION`
 * `chmod +x prepare-files.sh && ./prepare-files.sh`
 * :coffee: or :beer:
-* `chmod +x gen_syscalls.py && ./gen_syscalls.py > www/syscalls-x86.js`
 
 ## Web
 * uses [jQuery DataTables](http://datatables.net/) to pull JSON file and format table
@@ -16,7 +15,7 @@ Generate JSON system call table from Linux source. Hosted at https://syscalls.pa
 * `www` dir checked into gh-pages branch w/ JSON file using `deploy.sh`
 
 ## Kernel version
-Generated from Linux kernel 4.7
+Generated from Linux kernel 4.10
 
 ## Contributors
 * Paolo Stivanin (https://github.com/paolostivanin)

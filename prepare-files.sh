@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KERNEL_VERSION="4.10"
+KERNEL_VERSION="4.14"
 LINK="https://www.kernel.org/pub/linux/kernel/v4.x/linux-${KERNEL_VERSION}.tar.xz"
 
 TBL_32="/tmp/linux-${KERNEL_VERSION}/arch/x86/entry/syscalls/syscall_32.tbl"

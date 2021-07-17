@@ -1,6 +1,6 @@
 # syscall-table
 
-Generate JSON system call table from Linux source. Hosted at http://syscalls.kernelgrok.com.
+Generate JSON system call table from Linux source. Hosted at https://www.nullmethod.com/syscall-table/.
 
 ## Generating JSON
 ```
